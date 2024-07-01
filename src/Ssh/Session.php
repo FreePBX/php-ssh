@@ -9,6 +9,7 @@ use InvalidArgumentException, RuntimeException;
  *
  * @author Antoine Hérault <antoine.herault@gmail.com>
  */
+#[\AllowDynamicProperties]
 class Session extends AbstractResourceHolder
 {
     protected $configuration;
